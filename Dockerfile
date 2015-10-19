@@ -1,6 +1,6 @@
 FROM buildpack-deps:jessie-scm
 
-RUN apt-get update && apt-get install build-essential -y
+RUN apt-get update && apt-get install build-essential bzip2 -y
 
 ##### https://github.com/docker-library/java/blob/6f340724d3bc1f9b4385975c5de6bfe15aac8c85/openjdk-8-jdk/Dockerfile
 
